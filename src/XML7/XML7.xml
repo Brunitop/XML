@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<invoice>
+    <contact>
+        <business_name></business_name>
+        <address></address>
+        <city></city>
+        <state></state>
+        <zip_code></zip_code>
+        <phone></phone>
+        <email></email>
+        <website></website>
+    </contact>
+    <imagen logo="addlogo.jpg"></imagen>
+
+    <bill_to></bill_to>
+    <ship_to></ship_to>
+    <invoice_details></invoice_details>
+
+    <product_or_service>
+        <ps1>
+            <name>1. Product or service</name>
+            <descripcion>Describe your product or service</descripcion>
+            <qty_per_hrs>0</qty_per_hrs>
+            <rate>0</rate>
+            <amount>0</amount>
+        </ps1>
+        <ps2>
+            <nombre>2. Product or service</nombre>
+            <descripcion>Describe your product or service</descripcion>
+            <qty_per_hrs>0</qty_per_hrs>
+            <rate>0</rate>
+            <amount>0</amount>
+        </ps2>
+    </product_or_service>
+</invoice>
