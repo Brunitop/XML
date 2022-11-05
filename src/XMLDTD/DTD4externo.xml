@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE resultados SYSTEM "DTD4.dtd">
+<resultados>
+    <liga>
+        <nombre>Ascenso BBVA MX</nombre>
+        <partido>
+            <equipo>
+                <nombre>Durango</nombre>
+                <goles>1</goles>
+            </equipo>
+            <equipo>
+                <nombre>Celaya</nombre>
+                <goles>1</goles>
+            </equipo>
+            <fecha>25 de septiembre, 2022</fecha>
+            <estadio>Estadio Francisco Zarco</estadio>
+        </partido>
+        <partido>
+            <equipo>
+                <nombre>Mineros de Zacatecas</nombre>
+                <goles>1</goles>
+            </equipo>
+            <equipo>
+                <nombre>Atlante</nombre>
+                <goles>3</goles>
+            </equipo>
+            <fecha>5 de agosto, 2022</fecha>
+            <estadio>Estadio Carlos Vega Villalba</estadio>
+        </partido>
+    </liga>
+</resultados>

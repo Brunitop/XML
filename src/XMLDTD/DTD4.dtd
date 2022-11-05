@@ -1,0 +1,8 @@
+<!ELEMENT resultados (liga)>
+        <!ELEMENT liga (nombre, partido+)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT partido (equipo+, fecha, estadio)>
+                <!ELEMENT equipo (nombre, goles)>
+                    <!ELEMENT goles (#PCDATA)>
+                <!ELEMENT fecha (#PCDATA)>
+                <!ELEMENT estadio (#PCDATA)>

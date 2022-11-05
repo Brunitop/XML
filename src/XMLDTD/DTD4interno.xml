@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE resultados [
+        <!ELEMENT resultados (liga)>
+            <!ELEMENT liga (nombre, partido+)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT partido (equipo+, fecha, estadio)>
+                <!ELEMENT equipo (nombre, goles)>
+                    <!ELEMENT goles (#PCDATA)>
+                <!ELEMENT fecha (#PCDATA)>
+                <!ELEMENT estadio (#PCDATA)>
+            ]>
+
+<resultados>
+    <liga>
+        <nombre>Ascenso BBVA MX</nombre>
+        <partido>
+            <equipo>
+                <nombre>Durango</nombre>
+                <goles>1</goles>
+            </equipo>
+            <equipo>
+                <nombre>Celaya</nombre>
+                <goles>1</goles>
+            </equipo>
+            <fecha>25 de septiembre, 2022</fecha>
+            <estadio>Estadio Francisco Zarco</estadio>
+        </partido>
+        <partido>
+            <equipo>
+                <nombre>Mineros de Zacatecas</nombre>
+                <goles>1</goles>
+            </equipo>
+            <equipo>
+                <nombre>Atlante</nombre>
+                <goles>3</goles>
+            </equipo>
+            <fecha>5 de agosto, 2022</fecha>
+            <estadio>Estadio Carlos Vega Villalba</estadio>
+        </partido>
+    </liga>
+</resultados>

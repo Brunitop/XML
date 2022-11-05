@@ -1,0 +1,12 @@
+<!ELEMENT ventas (editorial, titulo, descripcion, fecha, region)>
+        <!ELEMENT editorial (#PCDATA)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT region (norte, centro, sur)>
+            <!ELEMENT norte (trimestre+)>
+                <!ELEMENT trimestre (num, libros_vendidos)>
+                    <!ELEMENT num (#PCDATA)>
+                    <!ELEMENT libros_vendidos (#PCDATA)>
+            <!ELEMENT centro (trimestre+)>
+            <!ELEMENT sur (trimestre+)>
